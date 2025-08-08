@@ -1,9 +1,11 @@
 # Ignore everything by default
 *
 
-# Allow these files/folders
-!src/
-!examples/
-!requirements.txt
-!README.md
+# Allow these files/folders (and their contents)
 !.gitignore
+!README.md
+!requirements.txt
+!src/
+!src/**
+!examples/
+!examples/**
