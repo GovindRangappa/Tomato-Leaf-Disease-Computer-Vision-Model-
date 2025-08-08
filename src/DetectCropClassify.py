@@ -12,7 +12,7 @@ HF_REPO = "GovRang/tomato-leaf-model"  # <- your HF repo
 YOLO_MODEL_PATH = hf_hub_download(HF_REPO, "best.pt")
 CLASSIFIER_MODEL_PATH = hf_hub_download(HF_REPO, "merged_model.pth")
 
-INPUT_IMAGE_PATH = r'C:\Users\govin\OneDrive\CV\Data\Tomato-Healthy4.jpg'
+INPUT_IMAGE_PATH = "examples/DetectionTest.jpg"
 OUTPUT_DIR = 'detected_and_classified'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
